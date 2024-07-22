@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    letter-spacing: 4px;
+    padding: 20px 20px;
+    font-size: 25px;
+    font-weight: 200;
+    z-index: 10;
+    margin-bottom: 20px;
+    background-color: rgba(255, 252, 252, 1);
+    width: 100%;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav nav {
+    padding: 10px 20px;
+}
+
+.img {
+    position: relative;
+    top: 70px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.name {
+    position: relative;
+    bottom: 100px;
+    width: 500px;
+    left: 50px;
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(255, 255, 255, 0.792);
+    letter-spacing: 9px;
+}
+
+#about {
+    background-color: rgb(255, 255, 255);  
+    padding: 64px 150px;
+    display: flex;
+    border-bottom: 1px solid rgb(109, 105, 105);
+    margin-top: 70px;
+}
+
+.about-img {
+    padding: 0 50px;
+    width: 50%;
+}
+
+.about-img img {
+    width: 50%%;
+}
+
+.about-conter{
+    width: 50%;
+    padding-right: 80px;
+}
+
+.about-content h2{
+    margin-bottom: 10px;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.about-content-section{
+    text-align: center;
+}
+.about-section{
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+#menu-content{
+    display: flex;
+    margin: 40px 10%;
+    border-bottom: 1px solid rgb(130, 124, 124);
+}
+
+.menu-header{
+    font-size: 36px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.menu h4 {
+    margin: 15px 0;
+}
+
+.footer-menu{
+    letter-spacing: 0;
+    width: 110%;
+    margin: 15px 0;
+    color: rgb(172, 181, 189);
+}
+
+.oru-img{
+    width: 50%;
+    text-align: center;
+    padding: 12px 24px;
+    font-family: 15px Verdana, sans-serif; 
+}
+
+.oru-img img{
+    width: 55%;
+}
+
+#contact-section{
+    width: 100%;
+    padding: 70px 10%;
+
+}
+#contact-section p{
+    letter-spacing: 0px !important;
+
+}
+.contact-input{
+    padding: 16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.contact-input-1{
+    background-color: #f1f1f1;
+    border: none;
+    padding: 20px 16px;
+    margin: 25px 0;
+}
+.contact-input-1:hover {
+    background-color: #3e3a3a;
+    color: rgb(204, 227, 227);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.footer-center{
+    background-color: #f1f1f1 !important;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    text-align: center !important;
+}
+
+a{
+    color: #3e3a3a;
+    text-decoration: none;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+nav:hover{
+    background-color: #57ac68;
+    color: rgb(8, 229, 229);
+    opacity: 0.7;
+    cursor: pointer;/
+}
